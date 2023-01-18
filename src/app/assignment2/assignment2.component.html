@@ -1,0 +1,18 @@
+<h3>Assignment 2 </h3>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label for="UserName">User Name:</label>
+                <input type=""><br><button type="button">Rest User</button>
+                <br>
+                <label for="username">UserName:</label>
+                <input type="text" class="form-control" [(ngModel)]="UserName">
+                <p *ngIf="isDirective" [ngStyle]=>{{UserName}}</p>
+                <p>{{ UserName }}</p>
+                <button type="button">Rest User</button>
+            </div>
+        </div>
+    </div>
+</div>
